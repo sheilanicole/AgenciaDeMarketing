@@ -7,7 +7,7 @@ body {
 
 /* Estilos del encabezado */
 header {
-    background-color: #333;
+    background-color: #fff;
     color: white;
     display: flex;
     justify-content: space-between;
@@ -28,5 +28,67 @@ nav ul {
 
 nav a {
     text-decoration: none;
-    color: white;
+    color: black;
 }
+
+/* Estilos del área principal */
+
+.texto {
+
+    background-color: #f5f5f5;
+    
+    padding: 50px;
+    
+    text-align: center;
+    
+    }
+    
+    .tipos {
+        font-size: 30px;
+    }
+      
+    
+    /* Estilos del área de contacto */
+    
+    .contacto {
+    
+    background-color: #f5f5f5;
+    
+    color: black;
+    
+    text-align: center;
+    
+    padding: 20px;
+    
+    }
+
+    .logo {
+        width: 300px;
+    }
+
+    #Capa_1
+    {
+        width: 150px;
+        padding: 10px 30px;
+    }
+
+    .Experiencia {
+        margin: 0px 0px 44px;
+        font: 20px Kodchasan,sans-serif;
+        color: #6b6b6b;
+        padding: 15px;
+    }
+
+    .cabecera_2{
+        padding: 0px 20px;
+        color: #6b6b6b;
+        font: 20px Kodchasan, sans-serif;
+        
+    }
+
+    .potenciamos{
+        color: #2f2c2c;
+        font: 48px Kodchasan, sans-serif;
+        margin: 0px 0px 20px;
+        padding: 15px;
+    }
