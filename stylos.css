@@ -103,3 +103,42 @@ nav a {
     .elementor-spacer-inner{
         padding: 40px;
     }
+
+    .elementor-widget-wrap {
+        color: #2F2C2C;
+        font: 29px Kodchasan, sans-serif;
+        padding: 200px;
+        
+    }
+
+    .texto2{
+      padding: 40px;
+    }
+
+  
+.elementor-icon-box-wrapper{
+    color: #2F2C2C;
+    font: 24px Kodchasan, sans-serif;
+
+}
+
+
+.elementor-section-boxed {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  
+  .elementor-col-33 {
+    width: calc(33.33% - 20px); 
+    margin-bottom: 20px; 
+  }
+    
+
+  .container {
+    color: red;
+  }s
+  
+  
+  
