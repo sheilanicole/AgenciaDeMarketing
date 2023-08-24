@@ -1,11 +1,12 @@
-/* Estilos generales */
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
 }
 
-/* Estilos del encabezado */
+
+
 header {
     background-color: #fff;
     color: white;
@@ -15,9 +16,13 @@ header {
     padding: 10px 20px;
 }
 
+
+
 header h1 {
     margin: 0;
 }
+
+
 
 nav ul {
     list-style: none;
@@ -26,12 +31,14 @@ nav ul {
     margin: 0;
 }
 
+
+
 nav a {
     text-decoration: none;
     color: black;
 }
 
-/* Estilos del área principal */
+
 
 .texto {
 
@@ -43,34 +50,24 @@ nav a {
     
     }
     
-    .tipos {
-        font-size: 30px;
-    }
-      
-    
-    /* Estilos del área de contacto */
-    
-    .contacto {
-    
-    background-color: #f5f5f5;
-    
-    color: black;
-    
-    text-align: center;
-    
-    padding: 20px;
-    
-    }
+
+
+
 
     .logo {
         width: 300px;
     }
 
-    #Capa_1
+
+
+
+    #Capa_1  
     {
         width: 150px;
         padding: 10px 30px;
     }
+
+
 
     .Experiencia {
         margin: 0px 0px 44px;
@@ -79,12 +76,16 @@ nav a {
         padding: 15px;
     }
 
+
+
     .cabecera_2{
         padding: 0px 20px;
         color: #6b6b6b;
         font: 20px Kodchasan, sans-serif;
         
     }
+
+
 
     .potenciamos{
         color: #2f2c2c;
@@ -93,52 +94,32 @@ nav a {
         padding: 15px;
     }
 
-    .elementor-button{
-        color:#FEFEFE;
+    
+    .elementor-button{  /*CONTACTO*/
+
+        color: #fefefe;
         font: 18px Kodchasan, sans-serif;
-        background: #11208E;
-        padding: 16px 32px;
-    }
-
-    .elementor-spacer-inner{
-        padding: 40px;
-    }
-
-    .elementor-widget-wrap {
-        color: #2F2C2C;
-        font: 29px Kodchasan, sans-serif;
-        padding: 200px;
+        background-color: #11208E;
+        padding: 5px 10px;
+        display: flex;
+        justify-content: center;
+        border-radius: 5px;
         
+       
     }
-
-    .texto2{
-      padding: 40px;
-    }
-
-  
-.elementor-icon-box-wrapper{
-    color: #2F2C2C;
-    font: 24px Kodchasan, sans-serif;
-
-}
-
-
-.elementor-section-boxed {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-  }
-  
-  
-  .elementor-col-33 {
-    width: calc(33.33% - 20px); 
-    margin-bottom: 20px; 
-  }
+    
     
 
-  .container {
-    color: red;
-  }s
+    
+
+
+
+    .servicios{
+        padding: 300px;
+    }
+
+   
   
-  
-  
+
+
+   
