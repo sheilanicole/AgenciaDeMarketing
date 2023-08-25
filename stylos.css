@@ -104,20 +104,50 @@ nav a {
         display: flex;
         justify-content: center;
         border-radius: 5px;
-        
+        width: 150px;
+       
        
     }
     
     
 
-    
-
-
 
     .servicios{
         padding: 300px;
+        display: flex;
+        justify-content: space-between; 
     }
 
+    .servicios1{
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
+        max-width: 600px;
+        padding: 30px;
+        border: 1px solid #ddd;
+        margin: 10px 0;
+        flex-wrap: wrap;
+    
+    } 
+
+    .servicios2{
+
+        display: flex;
+    justify-content: space-around;
+    width: 100%;
+    max-width: 600px;
+    padding: 30px;
+    border: 1px solid #ddd;
+    margin: 10px 0;
+   flex-wrap: wrap;
+    
+
+    }
+
+    .contenedor {
+        display: flex;
+     
+    }
    
   
 
