@@ -29,13 +29,15 @@ nav ul {
     display: flex;
     gap: 20px;
     margin: 0;
+
 }
 
 
 
 nav a {
     text-decoration: none;
-    color: black;
+    color: #6b6b6b;
+    font: 24px Kodchasan, sans-serif;
 }
 
 
@@ -43,10 +45,11 @@ nav a {
 .texto {
 
     background-color: #f5f5f5;
-    
     padding: 50px;
-    
+    color: #6b6b6b;
     text-align: center;
+    font: 20px Kodchasan, sans-serif;
+    margin: 0px 0px 44px;
     
     }
     
@@ -63,7 +66,7 @@ nav a {
 
     #Capa_1  
     {
-        width: 200px;
+        width: 210px;
         padding: 10px 30px;
     }
 
@@ -71,9 +74,9 @@ nav a {
 
     .Experiencia {
         margin: 0px 0px 44px;
-        font: 20px Kodchasan,sans-serif;
+        font: 25px Kodchasan,sans-serif;
         color: #6b6b6b;
-        padding: 15px;
+        padding: 40px;
     }
 
 
@@ -95,53 +98,103 @@ nav a {
     }
 
     
-    .elementor-button{  /*CONTACTO*/
+    .contacto{  
 
         color: #fefefe;
-        font: 18px Kodchasan, sans-serif;
-        background-color: #11208E;
-        padding: 5px 10px;
-        border-radius: 5px;
-        width: 160px;
-        display: flex;
-        justify-content: center;
-        text-align: center;
-        
-        
-       
-    }
+        font: 24px Kodchasan, sans-serif;
+        border-radius: 80px ;
+        background-color: #11208e; /* Color de fondo del recuadro */
+        padding: 15px; /* Espacio interno del recuadro */
+        width: 150px; /* Ancho del recuadro */
+        border: 1px solid #ccc; /* Borde del recuadro */
+        margin: 0 auto; /* Centrar horizontalmente */
+        text-align: center; /* Centrar el contenido del recuadro */
+}
+    
+
+      .espaciado{
+          padding: 50px;
+       }
 
 
-
-    .contenedor{
-        padding: 350px;
+       .contenedor{
+        padding: 100px 600px;
         display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        grid-auto-rows: minmax (100px, auto) ;
-        gap: 2em;    
+        grid-template-columns: 300px 300px 300px;
+        gap: 8em; 
+
         
-    }
-
-
-
-    .servicios1{
-        background: pink;
-        padding: 4em;
+        }
+        
+        
+        .servicios1{
+        background: #ccc;
+        padding: 3em;
         font: 20px Kodchasan, sans-serif;
-        color: #2f2c2c;
-    }
-
-
-
-    .servicios1:hover{
+        color: #6b6b6b;
+        }
+        
+        
+        .servicios1:hover{
         border: 1px solid grey;
+        
+        
+        }
+        
+        
+        .SOMOS{
+            color: #2f2c2c;
+            font: 35px Kodchasan,sans-serif;    
 
-    }
+        }
+
+        .espaciado2{
+            padding: 150px;
+        }
+  
+        
+        .espaciado3{
+            padding: 15px 0px;
+          
+
+        }
+
+        #google-ads-search h2{
+            color: #2f2c2c;
+            font: 24px, sans-serif;
+
+        }
+
+        #google-ads-display h2{
+            color: #2f2c2c;
+            font: 24px, sans-serif;
+        }
+        
+        #facebook-ads h2{
+            color: #2f2c2c;
+            font: 24px, sans-serif;
+        }
+
+        #diseno-web h2{
+            color: #2f2c2c;
+            font: 24px, sans-serif;
+        }
+
+        #business-intelligence h2{
+            color: #2f2c2c;
+            font: 24px, sans-serif;
+        }
+
+        #data-science h2{
+            color: #2f2c2c;
+            font: 24px, sans-serif;
+        }
+
+        .seccion{
+            background-color: white;
+            padding: 100px 0px;
+
+        }
 
 
     
-   
-  
-
-
-   
