@@ -231,6 +231,7 @@ nav a {
         .seccion{
             background: #fff;
             padding: 100px 0px;
+            
         }
 
 
@@ -239,15 +240,16 @@ nav a {
 
 
         .presentacion{
-            padding: 80px 0px;
-            display: grid;
-            grid-template-columns: repeat(5, 1rf);
-            justify-content: end;
-            
-            gap: 20px;
-            padding: 10px;
-            width: 100vw;
-            height: 100vh;
+           text-align: left;
+           width: 50%;
+           display: block;
+           padding: 5px;
+           float: right;
+           margin-top: 40x;
+           position: relative;
+           top: -500px;
+           left: 20px;
+          
         }
 
 
@@ -257,16 +259,16 @@ nav a {
             color: #2f2c2c;
             font: 36px, sans-serif;
             font-size: 36px;
+            
         }
 
 
        .item{
-            color: #6b6b6b;
-            font: 20px, sans-serif;
-            padding: 0px 0px 0px 5px;
-            font-size: 25px;
-            border: 1px solid #ccc;
-            text-align: right;
+         color: #6b6b6b;
+         font-size: 29px;
+         padding: 1em;
+         
+            
        }
         
         
@@ -274,3 +276,29 @@ nav a {
             padding: 40px 40px;
                                  
         }
+
+
+        .logojavier{
+            position: relative;
+            top: 200px;
+            left: 600px;
+           
+        }
+  
+        
+     .seccion3{
+         position: relative;
+         top: 500px;
+         left: 560px;
+     }
+
+    .elementor-widget-container{
+        position: relative;
+        top: -500px;
+        left: 700px;
+        color: #2f2c2c;
+        font-size: 20px;
+        font-family: sans-serif ;
+    }
+
+  
