@@ -175,10 +175,15 @@ nav a {
 
 
 
+        .minitexto{
+            font-size: 30px;
+        }
+
 
         #google-ads-search h2{
             color: #2f2c2c;
             font: 24px, sans-serif;
+            font-size: 34px;
 
         }
 
@@ -188,6 +193,7 @@ nav a {
         #google-ads-display h2{
             color: #2f2c2c;
             font: 24px, sans-serif;
+            font-size: 34px;
         }
 
 
@@ -196,6 +202,7 @@ nav a {
         #facebook-ads h2{
             color: #2f2c2c;
             font: 24px, sans-serif;
+            font-size: 34px;
         }
 
 
@@ -204,6 +211,7 @@ nav a {
         #diseno-web h2{
             color: #2f2c2c;
             font: 24px, sans-serif;
+            font-size: 34px;
         }
 
 
@@ -212,7 +220,7 @@ nav a {
         #business-intelligence h2{
             color: #2f2c2c;
             font: 24px, sans-serif;
-          
+            font-size: 34px;
         }
 
 
@@ -221,7 +229,7 @@ nav a {
         #data-science h2{
             color: #2f2c2c;
             font: 24px, sans-serif;
-            
+            font-size: 34px;
         }
 
 
@@ -236,9 +244,6 @@ nav a {
 
 
 
-
-
-
         .presentacion{
            text-align: left;
            width: 50%;
@@ -249,7 +254,7 @@ nav a {
            position: relative;
            top: -500px;
            left: 20px;
-          
+     
         }
 
 
@@ -286,19 +291,53 @@ nav a {
         }
   
         
-     .seccion3{
+     #seccion4{
          position: relative;
          top: 500px;
          left: 560px;
+         
+         
      }
+
+
+
+
+     .elementor-heading-title{
+        color:#2f2c2c;
+        font: sans-serif;
+        font-size: 40px;
+     }
+
+
 
     .elementor-widget-container{
         position: relative;
         top: -500px;
         left: 700px;
-        color: #2f2c2c;
-        font-size: 20px;
-        font-family: sans-serif ;
+        padding: 15px;
+        color: #6b6b6b;
+        font-size: 27px;
+        margin: 0px 0px 44px;
     }
 
+
+    .elementor-button{
+        position: relative;
+        top: -400px;
+        left: 700px;
+        border-radius: 80px ;
+        background-color: #11208e;
+        color: #fefefe;
+        padding:  16px 32px;
+        font-size: 20px;
+    
+    }
   
+
+    #chapto{
+        background-color: #f7f7f7;
+    }
+
+
+  
+
