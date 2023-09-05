@@ -97,22 +97,25 @@ nav a {
         font: 48px Kodchasan, sans-serif;
         margin: 0px 0px 20px;
         padding: 15px;
+        width: 45%;
+        position: relative;
+        left: 600px;
     }
 
 
     
-    .contacto{  
-
-        color: #fefefe;
-        font: 24px Kodchasan, sans-serif;
-        border-radius: 80px ;
-        background-color: #11208e; /* Color de fondo del recuadro */
+    .contacto{
+        position: relative;
+        top: 500px;
+        left: -729px;
         padding: 15px; /* Espacio interno del recuadro */
         width: 150px; /* Ancho del recuadro */
         border: 1px solid #ccc; /* Borde del recuadro */
         margin: 0 auto; /* Centrar horizontalmente */
         text-align: center; /* Centrar el contenido del recuadro */
-}
+       }
+
+
     
 
       .espaciado{
@@ -128,17 +131,24 @@ nav a {
         display: grid;
         grid-template-columns: 300px 300px 300px;
         gap: 8em; 
+        position: relative;
+        left: -100px;
+      
         }
+        
+
         
 
 
 
         
         .servicios1{
-        background: #ccc;
+     
         padding: 3em;
         font: 20px Kodchasan, sans-serif;
         color: #6b6b6b;
+        width: 90%;
+        
         }
 
 
@@ -154,7 +164,11 @@ nav a {
         
         .SOMOS{
             color: #2f2c2c;
-            font: 35px Kodchasan,sans-serif;    
+            font: 35px Kodchasan,sans-serif; 
+            width: 50%;   
+            position: relative;
+            left: 560px;
+            font-size: 40px;
 
         }
 
@@ -177,6 +191,7 @@ nav a {
 
         .minitexto{
             font-size: 30px;
+            text-align: left;
         }
 
 
@@ -184,6 +199,9 @@ nav a {
             color: #2f2c2c;
             font: 24px, sans-serif;
             font-size: 34px;
+            position: relative;
+            text-align: left;
+            
 
         }
 
@@ -194,6 +212,8 @@ nav a {
             color: #2f2c2c;
             font: 24px, sans-serif;
             font-size: 34px;
+            text-align: left;
+
         }
 
 
@@ -203,6 +223,8 @@ nav a {
             color: #2f2c2c;
             font: 24px, sans-serif;
             font-size: 34px;
+            text-align: left;
+
         }
 
 
@@ -212,6 +234,8 @@ nav a {
             color: #2f2c2c;
             font: 24px, sans-serif;
             font-size: 34px;
+            text-align: left;
+
         }
 
 
@@ -221,6 +245,9 @@ nav a {
             color: #2f2c2c;
             font: 24px, sans-serif;
             font-size: 34px;
+            text-align: left;
+
+            
         }
 
 
@@ -230,6 +257,8 @@ nav a {
             color: #2f2c2c;
             font: 24px, sans-serif;
             font-size: 34px;
+            text-align: left;
+
         }
 
 
@@ -250,10 +279,10 @@ nav a {
            display: block;
            padding: 5px;
            float: right;
-           margin-top: 40x;
+           margin-top: 40px;
            position: relative;
-           top: -500px;
-           left: 20px;
+           top: -580px;
+           left: 100px;
      
         }
 
@@ -264,6 +293,8 @@ nav a {
             color: #2f2c2c;
             font: 36px, sans-serif;
             font-size: 36px;
+            width: 40%;
+            
             
         }
 
@@ -272,6 +303,7 @@ nav a {
          color: #6b6b6b;
          font-size: 29px;
          padding: 1em;
+         width: 45%;
          
             
        }
@@ -285,19 +317,26 @@ nav a {
 
         .logojavier{
             position: relative;
-            top: 200px;
+            top: 400px;
             left: 600px;
+            
            
         }
+
+
+
+        
   
         
-     #seccion4{
+     #seccion3{
          position: relative;
-         top: 500px;
+         top: 700px;
          left: 560px;
+
          
          
      }
+
 
 
 
@@ -306,6 +345,8 @@ nav a {
         color:#2f2c2c;
         font: sans-serif;
         font-size: 40px;
+      
+        
      }
 
 
@@ -314,30 +355,83 @@ nav a {
         position: relative;
         top: -500px;
         left: 700px;
-        padding: 15px;
         color: #6b6b6b;
         font-size: 27px;
         margin: 0px 0px 44px;
+        width: 20%;
+       
+        
+        
     }
 
 
     .elementor-button{
         position: relative;
         top: -400px;
-        left: 700px;
+        left: 720px;
         border-radius: 80px ;
         background-color: #11208e;
         color: #fefefe;
-        padding:  16px 32px;
         font-size: 20px;
+        padding: 16px 32px;
+        text-align: left;
+        
     
     }
   
 
-    #chapto{
-        background-color: #f7f7f7;
-    }
-
-
+   .logo3{
+    position: relative;
+    top: 600px;
+    left: 1300px;
+   
+   }
   
+   .CURSO{
+    position: relative;
+    top: 100px;
+    left: 650px;
+    font-size: 40px;
+    width: 30%;
+   }
+   
 
+   .APRENDE{
+    position: relative;
+    top: 100px;
+    left: 650px;
+    font-size: 30px;
+    margin: 0px 0px 44px;
+    width: 25%;
+    color: #6b6b6b;
+   }
+
+   .verCURSO{
+    position: relative;
+        top: 200px;
+        left: 650px;
+        border-radius: 80px ;
+        background-color: #11208e;
+        color: #fefefe;
+        font-size: 20px;
+        padding: 16px 32px;
+        text-align: left;
+        
+   }
+
+   #google{
+    width: 55%;
+   }
+
+
+
+.imagen{
+    width: 500px;
+    height: 500px;
+}
+
+
+.imagen2{
+    width: 600px;
+    height: 800px;
+ }
