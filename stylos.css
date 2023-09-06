@@ -118,9 +118,7 @@ nav a {
 
     
 
-      .espaciado{
-          padding: 50px;
-       }
+     
 
 
 
@@ -175,18 +173,7 @@ nav a {
 
 
 
-        .espaciado2{
-            padding: 150px;
-        }
-
-
-
-  
         
-        .espaciado3{
-            padding: 15px 0px;
-        }
-
 
 
         .minitexto{
@@ -435,3 +422,50 @@ nav a {
     width: 600px;
     height: 800px;
  }
+
+ #Capa_2{
+    width: 230px;
+    padding: 10px 50px;
+    position: relative;
+    top: 650px;
+    left: 550px;
+ }
+
+ .sub{
+    position: relative;
+    top: 600px;
+    left: 1045px;
+    font-size: 40px;
+    
+ }
+
+
+ .espaciado5{
+    padding: 80px 0px;
+ }
+
+ .espaciado6{
+    padding: 80px 0px;
+ }
+
+
+ .espaciado2{
+    padding: 80px 0px;
+}
+
+
+.espaciado{
+    padding: 10px;
+ }
+
+
+.espaciado3{
+    padding: 15px 0px;
+}
+
+
+#seccion6{
+    position: relative;
+    top: 800px;
+    left: 500px;
+}
