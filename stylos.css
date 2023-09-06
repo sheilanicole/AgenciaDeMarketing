@@ -100,6 +100,8 @@ nav a {
         width: 45%;
         position: relative;
         left: 600px;
+        line-height: 1.5;
+        font-weight: bold;
     }
 
 
@@ -145,8 +147,9 @@ nav a {
         padding: 3em;
         font: 20px Kodchasan, sans-serif;
         color: #6b6b6b;
-        width: 90%;
-        
+        width: 80%;
+        position: relative;
+        left: 20px;
         }
 
 
@@ -163,10 +166,12 @@ nav a {
         .SOMOS{
             color: #2f2c2c;
             font: 35px Kodchasan,sans-serif; 
-            width: 50%;   
+            width: 60%;   
             position: relative;
-            left: 560px;
+            left: 435px;
             font-size: 40px;
+            line-height: 1.5;
+            font-weight: bold;
 
         }
 
@@ -177,16 +182,16 @@ nav a {
 
 
         .minitexto{
-            font-size: 30px;
+            font-size: 25px;
             text-align: left;
+            line-height: 1.5;
         }
 
 
         #google-ads-search h2{
             color: #2f2c2c;
             font: 24px, sans-serif;
-            font-size: 34px;
-            position: relative;
+            font-size: 30px;
             text-align: left;
             
 
@@ -198,7 +203,7 @@ nav a {
         #google-ads-display h2{
             color: #2f2c2c;
             font: 24px, sans-serif;
-            font-size: 34px;
+            font-size: 30px;
             text-align: left;
 
         }
@@ -209,7 +214,7 @@ nav a {
         #facebook-ads h2{
             color: #2f2c2c;
             font: 24px, sans-serif;
-            font-size: 34px;
+            font-size: 30px;
             text-align: left;
 
         }
@@ -220,7 +225,7 @@ nav a {
         #diseno-web h2{
             color: #2f2c2c;
             font: 24px, sans-serif;
-            font-size: 34px;
+            font-size: 30px;
             text-align: left;
 
         }
@@ -231,7 +236,7 @@ nav a {
         #business-intelligence h2{
             color: #2f2c2c;
             font: 24px, sans-serif;
-            font-size: 34px;
+            font-size: 30px;
             text-align: left;
 
             
@@ -243,7 +248,7 @@ nav a {
         #data-science h2{
             color: #2f2c2c;
             font: 24px, sans-serif;
-            font-size: 34px;
+            font-size: 30px;
             text-align: left;
 
         }
@@ -266,7 +271,7 @@ nav a {
            display: block;
            padding: 5px;
            float: right;
-           margin-top: 40px;
+           margin-top: 30px;
            position: relative;
            top: -580px;
            left: 100px;
@@ -279,8 +284,10 @@ nav a {
         .hola{
             color: #2f2c2c;
             font: 36px, sans-serif;
-            font-size: 36px;
+            font-size: 40px;
             width: 40%;
+            line-height: 1.5;
+            font-weight: bold;
             
             
         }
@@ -288,9 +295,10 @@ nav a {
 
        .item{
          color: #6b6b6b;
-         font-size: 29px;
+         font-size: 26px;
          padding: 1em;
          width: 45%;
+         line-height: 1.5;
          
             
        }
@@ -317,7 +325,7 @@ nav a {
         
      #seccion3{
          position: relative;
-         top: 700px;
+         top: 670px;
          left: 560px;
 
          
@@ -332,6 +340,7 @@ nav a {
         color:#2f2c2c;
         font: sans-serif;
         font-size: 40px;
+        line-height: 1.5;
       
         
      }
@@ -340,12 +349,13 @@ nav a {
 
     .elementor-widget-container{
         position: relative;
-        top: -500px;
+        top: -570px;
         left: 700px;
         color: #6b6b6b;
         font-size: 27px;
         margin: 0px 0px 44px;
         width: 20%;
+        line-height: 1.5;
        
         
         
@@ -354,7 +364,7 @@ nav a {
 
     .elementor-button{
         position: relative;
-        top: -400px;
+        top: -500px;
         left: 720px;
         border-radius: 80px ;
         background-color: #11208e;
@@ -379,7 +389,8 @@ nav a {
     top: 100px;
     left: 650px;
     font-size: 40px;
-    width: 30%;
+    width: 35%;
+    line-height: 1.5;
    }
    
 
@@ -391,11 +402,12 @@ nav a {
     margin: 0px 0px 44px;
     width: 25%;
     color: #6b6b6b;
+    line-height: 1.5;
    }
 
    .verCURSO{
     position: relative;
-        top: 200px;
+        top: 160px;
         left: 650px;
         border-radius: 80px ;
         background-color: #11208e;
@@ -455,7 +467,7 @@ nav a {
 
 
 .espaciado{
-    padding: 10px;
+    padding: 50px;
  }
 
 
@@ -468,4 +480,35 @@ nav a {
     position: relative;
     top: 800px;
     left: 500px;
+    color: white;
+
 }
+
+.menu-item{
+    position: relative;
+    left: 600px;
+    font-size: 25px;
+    color: white;
+    padding: 0px 0px 20px;
+}
+
+.copy{
+    position: relative;
+    left: 100px;
+    top: 55px;
+    font-size: 25px;
+    color: blue;
+    
+}
+
+.wp-block-social-links {
+    position: relative;
+    left: 1100px;
+    top: -228px;
+    font-size: 25px;
+    line-height: 1.5;
+    
+    
+}
+
+
